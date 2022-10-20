@@ -22,28 +22,32 @@ body {
 .view-items {
     background-color: #4a4a4a;
     margin: .5rem;
+    padding: .25rem;
+    border-radius: .5rem;
 }
 
 #container {
     height: 80vh;
-    width: 90vw;
+    width: 92vw;
     background-color: white;
     position: relative;
     top: 3vh;
-    left: 5vw;
+    left: 4vw;
 }
 
 .frame {
     background-color: aqua;
-    width: calc(90vw / 7);
-    height: calc(80vh / 5);
+    width: calc(92vw / 7 - .4rem);
+    height: calc(80vh / 5 - .8rem);
     display: inline-block;
     position: relative;
+    margin: 0 .2rem 1rem;
 }
 
 .name {
     position: absolute;
     bottom: 0;
     left: 0;
+    padding: .25rem;
     background-color: rgba(211, 211, 211, .5);
 }
