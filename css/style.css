@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+
+.view-items {
+    background-color: #4a4a4a;
+    margin: .5rem;
+}
+
+#container {
+    height: 80vh;
+    width: 90vw;
+    background-color: white;
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+}
+
+.frame {
+    background-color: aqua;
+    width: calc(90vw / 7);
+    height: calc(80vh / 5);
+    display: inline-block;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(211, 211, 211, .5);
+}
