@@ -29,14 +29,12 @@ body {
 #container {
     height: 80vh;
     width: 92vw;
-    background-color: white;
     position: relative;
     top: 3vh;
     left: 4vw;
 }
 
 .frame {
-    background-color: aqua;
     width: calc(92vw / 7 - .4rem);
     height: calc(80vh / 5 - .8rem);
     display: inline-block;
@@ -50,4 +48,9 @@ body {
     left: 0;
     padding: .25rem;
     background-color: rgba(211, 211, 211, .5);
+}
+
+img {
+    width: calc(92vw / 7 - .4rem);
+    height: calc(80vh / 5 - .8rem);
 }
